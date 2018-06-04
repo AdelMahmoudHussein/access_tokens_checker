@@ -18,4 +18,5 @@ def checkToken(tokensTxt):
 			goodTokens.close()
 			print("Checking Token Number -> {0}".format(count) , end="\r")
 checkToken(input("Enter Tokens Path : "))
+print("Done [+]")
 time.sleep(500)
